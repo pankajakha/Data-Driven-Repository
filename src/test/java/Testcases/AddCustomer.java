@@ -24,6 +24,7 @@ public class AddCustomer extends Baseclass {
 	//	Assert.fail();
 		click("Add_Customer_submit_xpath");
 		Alert alert =driver.switchTo().alert();
+		System.out.println("check branch changes");
 		
 		softassert.assertTrue(alert.getText().startsWith("Customer added successfully"));
 	     alert.accept();
