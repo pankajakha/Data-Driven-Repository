@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Customer Suite" duration-ms="6088" started-at="2020-05-21T06:49:45Z" finished-at="2020-05-21T06:49:51Z">
+    <groups>
+    </groups>
+    <test name="Test Customer" duration-ms="6088" started-at="2020-05-21T06:49:45Z" finished-at="2020-05-21T06:49:51Z">
+      <class name="Testcases.AddCustomer">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Testcases.AddCustomer@4a668b6e]" name="Initialize" is-config="true" duration-ms="15872" started-at="2020-05-21T12:19:29Z" finished-at="2020-05-21T12:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="AddnewCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.AddCustomer@4a668b6e]" name="AddnewCustomer" duration-ms="4735" started-at="2020-05-21T12:19:45Z" data-provider="getdata" finished-at="2020-05-21T12:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201301.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewCustomer -->
+        <test-method status="PASS" signature="searchcustomer(java.lang.String)[pri:2, instance:Testcases.AddCustomer@4a668b6e]" name="searchcustomer" duration-ms="850" started-at="2020-05-21T12:19:50Z" data-provider="getvalue" finished-at="2020-05-21T12:19:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcustomer -->
+      </class> <!-- Testcases.AddCustomer -->
+    </test> <!-- Test Customer -->
+  </suite> <!-- Customer Suite -->
+</testng-results>

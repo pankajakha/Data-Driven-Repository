@@ -1,0 +1,9 @@
+INFO    2020-06-01 13:32:18,651 [main] Baseclass  - Clicking on element identified by Bank_manager_login_button_xpath
+INFO    2020-06-01 13:32:18,843 [main] Baseclass  - Clicking on element identified by Add_customer_button_xpath
+INFO    2020-06-01 13:32:19,267 [main] Baseclass  - Typing on element identified by First_name_field_Xpath and value pankaj
+INFO    2020-06-01 13:32:19,403 [main] Baseclass  - Typing on element identified by Last_name_field_Xpath and value sharma
+INFO    2020-06-01 13:32:19,536 [main] Baseclass  - Typing on element identified by Post_Code_field_Xpath and value 201301.0
+INFO    2020-06-01 13:32:19,664 [main] Baseclass  - Clicking on element identified by Add_Customer_submit_xpath
+INFO    2020-06-01 13:32:19,816 [main] Baseclass  - Clicking on element identified by Customer_button_xpath
+INFO    2020-06-01 13:32:20,052 [main] Baseclass  - Typing on element identified by Search_bar_xpath and value pankaj
+INFO    2020-06-01 13:32:20,080 [main] Baseclass  - Element with Delete_button_xpath is present
